@@ -1,4 +1,6 @@
 # foodie — voice-ordering food delivery demo
+**Live demo:** https://foodie-k5vh.onrender.com
+**Demo video:** https://github.com/user-attachments/assets/165ffed3-3b9e-4a6c-a8d9-d2e777e7e3dc
 
 A Zomato/Swiggy-style food ordering app you talk to. Say what you want, across a real
 multi-restaurant menu, and it lands in your cart correctly — including asking you to pick a
