@@ -10,6 +10,8 @@ const app = express();
 app.use(express.json({ limit: '1mb' }));
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/', (req, res) => res.redirect('/voice-order.html'));
+
 // LLM_PROVIDER=ollama (default, free, local, no signup) or groq (free hosted tier, works when deployed)
 const LLM_PROVIDER = (process.env.LLM_PROVIDER || 'ollama').toLowerCase();
 const OLLAMA_URL = process.env.OLLAMA_URL || 'http://localhost:11434';
